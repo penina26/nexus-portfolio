@@ -36,6 +36,11 @@ function Form({ onAddProject, projectToEdit, onUpdateProject }) {
                     onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                     placeholder="Category"
                 />
+                <input
+                    value={formData.image}
+                    onChange={(e) => setFormData({ ...formData, image: e.target.value })}
+                    placeholder="image"
+                />
                 <button type="submit">
                     {projectToEdit ? "Save Changes" : "Publish to Nexus"}
                 </button>
