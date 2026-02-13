@@ -2,6 +2,8 @@
 
 NEXUS is a high-end, responsive Single Page Application (SPA) built with React. Designed for a modern creative agency, it provides a seamless interface for showcasing projects, managing a dynamic portfolio, and filtering content in real-time.
 
+**🔗 [View Live Demo](https://penina26.github.io/nexus-portfolio/)**
+
 
 
 ## 🚀 Features
