@@ -1,16 +1,30 @@
-# React + Vite
+# NEXUS // Creative Agency Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NEXUS is a high-end, responsive Single Page Application (SPA) built with React. Designed for a modern creative agency, it provides a seamless interface for showcasing projects, managing a dynamic portfolio, and filtering content in real-time.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Full CRUD Functionality**: 
+  - **Create**: Add new projects with custom titles, categories, and images.
+  - **Read**: View a beautifully styled grid of current agency work.
+  - **Update**: Edit existing project details through a synchronized form.
+  - **Delete**: Remove outdated or completed projects instantly.
+- **Dynamic Real-Time Search**: Filter the entire portfolio by name or category as you type.
+- **Responsive "Nexus" UI**: A mobile-first, dark-themed aesthetic built with CSS Grid and Flexbox.
+- **Data Integrity**: Uses `uuid` to ensure every project has a unique, collision-free identifier.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js (Functional Components & Hooks)
+- **State Management**: Lifted State Pattern with `useState` and `useEffect`
+- **ID Generation**: UUID v4
+- **Build Tool**: Vite
+- **Styling**: Custom CSS3 (Modern Grid/Flexbox)
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/penina25/nexus-portfolio.git](https://github.com/penina26/nexus-portfolio.git)
