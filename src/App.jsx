@@ -33,12 +33,18 @@ function App() {
   // updating a project logic
 
   const updateProject = (updatedProject) => {
+    // If the user clicked "Cancel", updatedProject will be null
+    if (!updatedProject) {
+      setProjectToEdit(null);
+      return; // Stop here and don't try to map
+    }
+
+    // Otherwise, proceed with the update
     setProjects(projects.map(p =>
       p.id === updatedProject.id ? updatedProject : p
     ));
-    setProjectToEdit(null); // Clear edit mode
+    setProjectToEdit(null);
   };
-
   //Add new project logic
   const addProject = (newProject) => {
     //create new project with unique id

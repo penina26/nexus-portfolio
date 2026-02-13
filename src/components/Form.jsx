@@ -40,7 +40,7 @@ function Form({ onAddProject, projectToEdit, onUpdateProject }) {
                     {projectToEdit ? "Save Changes" : "Publish to Nexus"}
                 </button>
                 {projectToEdit && (
-                    <button type="button" onClick={() => onUpdateProject(null)}>Cancel</button>
+                    <button type="button" onClick={() => onUpdateProject(null)} className="cancel-btn">Cancel</button>
                 )}
             </div>
         </form>

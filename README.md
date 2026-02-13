@@ -28,3 +28,21 @@ NEXUS is a high-end, responsive Single Page Application (SPA) built with React. 
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/penina25/nexus-portfolio.git](https://github.com/penina26/nexus-portfolio.git)
+
+## 📂 Folder Structure
+
+```text
+nexus-portfolio/
+├── public/              # Static assets (favicon, etc.)
+├── src/
+│   ├── assets/          # Global styles and images
+│   ├── components/      # Reusable UI Components
+│   │   ├── Form.jsx         # Dual-mode (Add/Edit) project form
+│   │   ├── ProjectCard.jsx  # Individual project display unit
+│   │   ├── ProjectList.jsx  # Grid container for project cards
+│   │   └── Search.jsx       # Real-time filter input
+│   ├── App.jsx          # Main application logic & state management
+│   ├── App.css          # Core "Nexus" styling & transitions
+│   └── main.jsx         # Application entry point
+├── package.json         # Project dependencies (React, UUID, Vite)
+└── README.md            # Project documentation
